@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.titleContainer {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    font-family:'Lobster';
+}
+
+.title {
+    color:white;
+    margin-top:3rem;
+    font-size:120px;
+
+    background-color: black;
+    width:fit-content;
+    padding: 10px 24px;
+    border-radius:30px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 0;
+    background-color:azure;
+    padding: 40px 30px 20px 30px;
+    position: relative;
+    top:-2rem;
+    z-index:-1;
+    border-radius:15px;
+    font-size:40px;
+}

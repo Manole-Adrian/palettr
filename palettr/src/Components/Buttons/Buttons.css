@@ -1,0 +1,35 @@
+
+.buttonsContainer {
+    display:flex;
+    justify-content: center;
+}
+
+.button {
+    margin:2rem 8rem;
+    background-color: white;
+    border:none;
+    width:12rem;
+    height:12rem;
+    border-radius:100%;
+    border-style: solid;
+    border-width:2px;
+    border-color:black;
+    cursor:pointer;
+    transition:transform 0.3s ease;
+}
+
+.button:hover {
+    transform:scale(1.05)
+}
+
+.shuffleContainer {
+    display:flex;
+    justify-content: center;
+}
+
+.shuffle {
+    width:30rem;
+    border-radius:30px;
+    height:6rem;
+    margin-top:6rem;
+}
