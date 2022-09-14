@@ -10,6 +10,7 @@
     border-color:black;
     width:100%;
     transition: top 0.3s ease;
+    z-index:2;
 }
 
 .menubar {
@@ -22,4 +23,25 @@
     margin-top:1rem;
     margin-left:2rem;
     margin-bottom: 0rem;
+}
+
+.paletteContainer {
+    display:flex;
+    margin:0;
+    padding:0;
+    margin-left:auto;
+}
+
+.curPalette {
+    margin-right:1rem;
+}
+
+.color {
+    list-style:none;
+    width:30px;
+    height:30px;
+    margin:0; 
+    border-style:solid;
+    border-width:1px;
+    border-color:black;
 }

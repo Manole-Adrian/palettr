@@ -12,7 +12,7 @@
     color:white;
     margin-top:3rem;
     font-size:120px;
-
+    z-index:1;
     background-color: black;
     width:fit-content;
     padding: 10px 24px;
@@ -26,7 +26,7 @@
     padding: 40px 30px 20px 30px;
     position: relative;
     top:-2rem;
-    z-index:-1;
+    z-index:0;
     border-radius:15px;
     font-size:40px;
 }
