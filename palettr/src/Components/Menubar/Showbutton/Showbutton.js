@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Showbutton.css"
 
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
+
 export default function ShowButton(props) {
 
     function handleClick() {
@@ -8,6 +11,6 @@ export default function ShowButton(props) {
     }
 
     return <button className='showbutton' onClick={handleClick}>
-        {props.isHidden ? "Hide" : "Show"}
+        {props.isHidden ? <KeyboardDoubleArrowUpIcon/> : <KeyboardDoubleArrowDownIcon/>}
     </button>
 }

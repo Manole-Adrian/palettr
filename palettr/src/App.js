@@ -62,7 +62,7 @@ function App() {
         />
       )}
       {responseCode === 1 && viewLiked === true && (
-        <LikedPage likedPalettes={likedPalettes} />
+        <LikedPage likedPalettes={likedPalettes} colorsArr={colorsArr} setLikedPalettes={setLikedPalettes} setColorsArr={setColorsArr}/>
       )}
     </div>
   );

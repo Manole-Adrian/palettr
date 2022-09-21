@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 .menubarContainer {
     background-color: white;
@@ -11,6 +12,7 @@
     width:100%;
     transition: top 0.3s ease;
     z-index:2;
+    font:'Inter'
 }
 
 .menubar {
@@ -35,6 +37,8 @@
 
 .curPalette {
     margin-right:1rem;
+
+    font-size:1.25rem;
 }
 
 .color {
@@ -49,4 +53,22 @@
 
 .changeModeForm {
     width:13rem;
+}
+
+.menubarSubtitle {
+    margin:0;
+    font-weight: normal !important;
+    text-align: center;
+}
+
+.menubarInfo {
+    margin:0;
+    font-weight: normal !important;
+    text-align: center;
+}
+
+.menubarSubtitleContainer {
+    margin-left:auto;
+    margin-right:2rem;
+    justify-content:center;
 }

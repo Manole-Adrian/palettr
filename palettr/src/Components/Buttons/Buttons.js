@@ -1,6 +1,10 @@
 import React from "react";
 import "./Buttons.css";
 
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import HeartBrokenIcon from '@mui/icons-material/HeartBroken';
+import ShuffleIcon from '@mui/icons-material/Shuffle';
+
 export default function Buttons(props) {
   function handleClick(isLike) {
     if (isLike === "like") {
@@ -65,7 +69,7 @@ export default function Buttons(props) {
             color: props.colorsArr[4].hex.value,
           }}
         >
-          {"</3"}
+          <HeartBrokenIcon sx={{fontSize:120}}/>
         </button>
         <button
           className="button"
@@ -77,7 +81,7 @@ export default function Buttons(props) {
             color: props.colorsArr[0].hex.value,
           }}
         >
-          {"<3"}
+          <FavoriteIcon sx={{fontSize:120}}/>
         </button>
       </div>
       <div className="shuffleContainer">
@@ -89,7 +93,7 @@ export default function Buttons(props) {
           }}
           onClick={shuffle}
         >
-          Shuffle!
+          <ShuffleIcon sx={{fontSize:90}}/>
         </button>
       </div>
     </section>
